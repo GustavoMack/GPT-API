@@ -7,7 +7,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY') #PEGA A VARIAVEL DO .ENV
 
 
 resposta = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",  # Alterado para um modelo de chat mais recente
+    model="gpt-3.5-turbo",  #USADO UMA VERSÃO MAIS ANTIGA QUE A DISPONIBILIZADA NO SITE 
     messages=[
         {"role": "system", "content": """
          Você é um assistente de um chat sobre culinária
